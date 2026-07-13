@@ -1,7 +1,7 @@
 # Agora Swift Package Manager
 
 <p align="center">
-  <img src="https://github.com/easemob/HyphenateChat_iOS/actions/workflows/swiftpm-resolve.yml/badge.svg"/>
+  <img src="https://github.com/easemob/HyphenateChat_iOS/actions/workflows/swift.yml/badge.svg"/>
 </p>
 Install HyphenateChat_iOS SDK easily with Swift Package Manager.
 
