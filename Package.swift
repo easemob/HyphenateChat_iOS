@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -13,16 +13,16 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/AgoraIO/AgoraInfra_iOS",
-            from: "1.3.0"
+            url: "https://github.com/Shengwang-Lab/ShengwangInfra_iOS.git",
+            from: "1.3.5"
         ),
     ],
     targets: [
         // 1️⃣ binary SDK (name must match .xcframework inside the zip)
         .binaryTarget(
             name: "HyphenateChat",
-            url: "https://download-sdk.oss-cn-beijing.aliyuncs.com/downloads/HyphenateChat4_17_1.zip",
-            checksum: "9e025976606870430b31758098b3ac11c17fda178f5312b6312b7bc0dfd7c0b6"
+            url: "https://download-sdk.oss-cn-beijing.aliyuncs.com/downloads/HyphenateChat4_24_0.zip",
+            checksum: "a7a4092ef17ff7faa64d955e2181124101a36846f6e5f13ae705d5ce18f0d939"
         ),
 
         // 2️⃣ wrapper target
@@ -30,7 +30,7 @@ let package = Package(
             name: "HyphenateChatWrapper",
             dependencies: [
                 "HyphenateChat",
-                .product(name: "AgoraInfra_iOS", package: "AgoraInfra_iOS")
+                .product(name: "ShengwangInfra_iOS", package: "ShengwangInfra_iOS")
             ]
         ),
 
