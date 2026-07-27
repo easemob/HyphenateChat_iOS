@@ -21,8 +21,8 @@ let package = Package(
         // 1️⃣ binary SDK (name must match .xcframework inside the zip)
         .binaryTarget(
             name: "HyphenateChat",
-            url: "https://download-sdk.oss-cn-beijing.aliyuncs.com/downloads/HyphenateChat4_22_1.zip",
-            checksum: "12443fac3051f2d7a4aeef483dcc053941b83b4283a3806dbaf7861bb04ec96c"
+            url: "https://download-sdk.oss-cn-beijing.aliyuncs.com/downloads/HyphenateChat4_19_1.zip",
+            checksum: "cc098755af6aabc055ba9c3ff0cd76b224fedc4c82c0b994558299576f495312"
         ),
 
         // 2️⃣ wrapper target
