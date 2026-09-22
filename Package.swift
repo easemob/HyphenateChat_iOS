@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "HyphenateChat",
             url: "https://download-sdk.oss-cn-beijing.aliyuncs.com/downloads/HyphenateChat4_25_0.zip",
-            checksum: "aca47bc30f71698ca47ef5bcdaac9a70168b2fee51aab992e8548f40670b0cde"
+            checksum: "c19b76fecb06ae26bc836992add5bf3eb8bbb85c68bfd433081e371e8c9691f4"
         ),
 
         // 2️⃣ wrapper target
